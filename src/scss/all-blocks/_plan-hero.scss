@@ -1,0 +1,41 @@
+.plan-hero {
+    padding: 117px 0px 116px 85px;
+    margin-bottom: 168px;
+    border-radius: 10px;
+    background-image: url("../../../src/assets/img/plan-hero-bc.jpg");
+    background-repeat: no-repeat;
+
+    h1 {
+        margin-bottom: 32px;
+        color: #FEFCF7;
+        font-family: 'Fraunces', serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+    }
+
+    p {
+        width: 445px;
+        margin-bottom: 56px;
+        color: #FEFCF7;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    a {
+        width: 217px;
+        height: 56px;
+        padding: 16px 31px;
+        border-radius: 6px;
+        background: #0E8784;
+        color: #FEFCF7;
+        font-family: 'Fraunces', serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+    }
+}

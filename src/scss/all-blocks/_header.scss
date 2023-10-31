@@ -1,0 +1,41 @@
+.header {
+    padding-top: 44px;
+    margin-bottom: 50px;
+
+    .header_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 0 33px;
+        }
+
+        a {
+            color: #83888F;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 15px;
+            letter-spacing: 0.923px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+    .header_wrap {
+        gap: 0 741px;
+    }
+
+    ul {
+        gap: 0 25px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,33 @@
+.footer {
+    padding: 47px 85px;
+    margin-bottom: 88px;
+    background: #2C343E;
+
+    .footer_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .wrap {
+        display: flex;
+        align-items: center;
+        gap: 0 103px;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 0 33px;
+
+        a {
+            color: #83888F;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 15px;
+            letter-spacing: 0.923px;
+            text-transform: uppercase;
+        }
+    }
+}

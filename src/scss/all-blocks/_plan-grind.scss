@@ -1,0 +1,83 @@
+.plan-grind {
+
+    .grind-wrap {
+        width: 730px;
+        margin-left: 430px;
+    }
+
+    .grind-box {
+        display: flex;
+        align-items: center;
+        gap: 0 230px;
+        margin-bottom: 56px;
+
+        h3 {
+            color: #83888F;
+            font-family: 'Fraunces';
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 48px;
+        }
+    }
+
+    .grind-list {
+        display: flex;
+        gap: 0 23px;
+        margin-bottom: 88px;
+    }
+
+    .grind-item {
+        width: 228px;
+        height: 250px;
+        padding: 32px 28px 84px 28px;
+        border-radius: 8px;
+        background: #F4F1EB;
+
+        h4 {
+            margin-bottom: 25px;
+            color: #333D4B;
+            font-family: 'Fraunces';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 32px;
+        }
+
+        p {
+            width: 172px;
+            color: #333D4B;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+
+    .grind-item-2 {
+        width: 228px;
+        height: 250px;
+        padding: 32px 28px 84px 28px;
+        border-radius: 8px;
+        background: #0E8784;
+
+        h4 {
+            margin-bottom: 25px;
+            color: #FFF;
+            font-family: 'Fraunces';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 32px;
+        }
+
+        p {
+            width: 172px;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+}

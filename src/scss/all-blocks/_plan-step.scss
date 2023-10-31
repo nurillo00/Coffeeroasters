@@ -1,0 +1,51 @@
+.plan-step {
+    padding: 91px 150px 110px 85px;
+    margin-bottom: 160px;
+    border-radius: 10px;
+    background: #2C343E;
+
+    img {
+        margin-bottom: 67px;
+    }
+
+    ul {
+        display: flex;
+        gap: 0 95px;
+    }
+
+    li {
+        width: 285px;
+        height: 355px;
+        margin-bottom: 65px;
+
+        h2 {
+            margin-bottom: 38px;
+            color: #FDD6BA;
+            font-family: 'Fraunces';
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 72px;
+        }
+
+        h3 {
+            width: 255px;
+            margin-bottom: 42px;
+            color: #FEFCF7;
+            font-family: 'Fraunces';
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 36px;
+        }
+
+        p {
+            width: 275px;
+            color: #FEFCF7;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+}
