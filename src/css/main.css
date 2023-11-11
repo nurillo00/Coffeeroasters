@@ -49,6 +49,10 @@ button {
   align-items: center;
   justify-content: space-between;
 }
+.header .header_wrap img {
+  width: 236px;
+  height: 26px;
+}
 .header .header_wrap ul {
   display: flex;
   align-items: center;
@@ -63,6 +67,11 @@ button {
   letter-spacing: 0.923px;
   text-transform: uppercase;
 }
+.header .header_wrap button {
+  display: none;
+  border: none;
+  background: none;
+}
 
 @media only screen and (max-width: 650px) {
   .header .header_wrap ul {
@@ -70,8 +79,23 @@ button {
   }
 }
 @media only screen and (max-width: 600px) {
+  .header .header_wrap {
+    gap: 0 180px;
+  }
   .header .header_wrap ul {
     display: none;
+  }
+  .header .header_wrap button {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .header {
+    padding: 32px 0 40px 0;
+  }
+  .header .header_wrap img {
+    width: 163px;
+    height: 18px;
   }
 }
 .hero {
