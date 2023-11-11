@@ -89,9 +89,46 @@ button {
     display: inline-block;
   }
 }
+@media only screen and (max-width: 570px) {
+  .header .header_wrap {
+    gap: 0 150px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .header .header_wrap {
+    gap: 0 120px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .header .header_wrap {
+    gap: 0 70px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .header .header_wrap {
+    gap: 0 30px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .header .header_wrap {
+    gap: 0 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header .header_wrap {
+    gap: 0 60px;
+  }
+  .header .header_wrap img {
+    width: 163px;
+    height: 18px;
+  }
+}
 @media only screen and (max-width: 375px) {
   .header {
     padding: 32px 0 40px 0;
+  }
+  .header .header_wrap {
+    gap: 0 80px;
   }
   .header .header_wrap img {
     width: 163px;
