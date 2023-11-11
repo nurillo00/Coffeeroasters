@@ -1,5 +1,5 @@
 .hero {
-    padding: 117px 702px 116px 85px;
+    padding: 117px 0px 116px 85px;
     margin-bottom: 136px;
     border-radius: 10px;
     background-image: url("../../../src/assets/img/hero-img.jpg");
@@ -7,6 +7,7 @@
     
 
     h1 {
+        width: 493px;
         margin-bottom: 32px;
         color: #FEFCF7;
         font-family: 'Fraunces', serif;
@@ -17,6 +18,7 @@
     }
 
     p {
+        width: 445px;
         margin-bottom: 56px;
         color: #FEFCF7;
         font-size: 16px;
@@ -37,11 +39,5 @@
         font-style: normal;
         font-weight: 900;
         line-height: 25px;
-    }
-}
-
-@media only screen and (max-width:320px) {
-    h1 {
-        text-align: center;
     }
 }

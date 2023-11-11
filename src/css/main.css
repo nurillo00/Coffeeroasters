@@ -64,25 +64,25 @@ button {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 320px) {
-  .header_wrap {
-    gap: 0 741px;
+@media only screen and (max-width: 650px) {
+  .header .header_wrap ul {
+    gap: 0 14px;
   }
-  ul {
-    gap: 0 25px;
-  }
-  a {
-    font-size: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .header .header_wrap ul {
+    display: none;
   }
 }
 .hero {
-  padding: 117px 702px 116px 85px;
+  padding: 117px 0px 116px 85px;
   margin-bottom: 136px;
   border-radius: 10px;
   background-image: url("../../../src/assets/img/hero-img.jpg");
   background-repeat: no-repeat;
 }
 .hero h1 {
+  width: 493px;
   margin-bottom: 32px;
   color: #FEFCF7;
   font-family: "Fraunces", serif;
@@ -92,6 +92,7 @@ button {
   line-height: 72px;
 }
 .hero p {
+  width: 445px;
   margin-bottom: 56px;
   color: #FEFCF7;
   font-size: 16px;
@@ -113,11 +114,6 @@ button {
   line-height: 25px;
 }
 
-@media only screen and (max-width: 320px) {
-  h1 {
-    text-align: center;
-  }
-}
 .info {
   height: 525px;
   margin-top: 62px;

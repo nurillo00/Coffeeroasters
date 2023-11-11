@@ -25,17 +25,23 @@
     }
 }
 
-@media only screen and (max-width:320px) {
 
-    .header_wrap {
-        gap: 0 741px;
+@media only screen and (max-width: 650px) {
+    .header {
+        .header_wrap {
+            ul {
+                gap: 0 14px;
+            }
+        }
     }
+}
 
-    ul {
-        gap: 0 25px;
-    }
-
-    a {
-        font-size: 10px;
+@media only screen and (max-width: 600px) {
+    .header{
+        .header_wrap {
+          ul {
+            display: none;
+          }
+        }
     }
 }
